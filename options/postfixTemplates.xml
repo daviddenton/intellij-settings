@@ -1,0 +1,10 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="debug@userDefined" key=".debug" provider="builtin.kotlin" language-level="1.8" topmost="true">
+      <conditions>
+        <condition id="fqn" fqn="ANY" />
+      </conditions>
+      <template name="key" value="org.http4k.filter.DebuggingFilters.PrintRequestAndResponse().then($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
