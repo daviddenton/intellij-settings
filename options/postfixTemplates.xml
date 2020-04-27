@@ -1,6 +1,6 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="debug@userDefined" key=".debug" provider="builtin.kotlin" language-level="1.8" topmost="true">
+    <template id="debug@userDefined" key=".debug" provider="builtin.java" language-level="8" topmost="true">
       <conditions>
         <condition id="fqn" fqn="ANY" />
       </conditions>
