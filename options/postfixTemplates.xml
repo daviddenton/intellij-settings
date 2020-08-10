@@ -4,7 +4,7 @@
       <conditions>
         <condition id="fqn" fqn="ANY" />
       </conditions>
-      <template name="key" value="org.http4k.filter.DebuggingFilters.PrintRequestAndResponse().then($EXPR$)" toReformat="true" toShortenFQNames="true" />
+      <template name="debug" value="org.http4k.filter.DebuggingFilters.PrintRequestAndResponse().then($EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>

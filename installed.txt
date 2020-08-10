@@ -1,0 +1,22 @@
+CMD Support
+PlantUML integration
+Pythonid
+Statistic
+com.dmarcotte.handlebars
+com.github.bjansen.intellij.pebble
+com.github.kornilovaL.flamegraphProfiler
+com.github.platan.gradle-dependencies-formatter
+com.github.s4nchez.okeydoke.idea
+com.intellij.plugins.watcher
+de.endrullis.idea.postfixtemplates
+io.protostuff.protostuff-jetbrains-plugin
+name.kropp.intellij.makefile
+net.seesharpsoft.intellij.plugins.csv
+org.intellij.plugins.hcl
+org.intellij.scala
+org.jetbrains.debugger.streams.kotlin
+org.jetbrains.kotlin
+org.jetbrains.plugins.go
+org.jetbrains.plugins.hocon
+org.toml.lang
+ru.meanmail.plugin.requirements
