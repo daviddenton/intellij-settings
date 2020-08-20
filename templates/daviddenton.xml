@@ -26,4 +26,10 @@
             <option name="KOTLIN_CLASS" value="true" />
         </context>
     </template>
+    <template name="inv" value="    operator fun invoke(): $TYPE$ = TODO()&#10;" description="" toReformat="false" toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="KOTLIN" value="true" />
+        </context>
+  </template>
 </templateSet>
