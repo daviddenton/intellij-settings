@@ -1,0 +1,42 @@
+<templateSet group="user">
+  <template name="test" value="@Test&#10;    fun `$content$`() {&#10;        $content2$&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="st" value="class $name$ private constructor(value: String) : StringValue(value) {&#10;    companion object : NonBlankStringValueFactory&lt;$name$&gt;(::$name$)&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="class $name$ {&#10;    @Test&#10;    fun `$test$`() {&#10;        $content$&#10;    }&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="be" value="    @BeforeEach&#10;    fun `$name$`() {&#10;        $content$    &#10;    }" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="    @AfterEach&#10;    fun `$name$`() {&#10;        $content$&#10;    }" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="inv" value="operator fun invoke() = TODO()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
